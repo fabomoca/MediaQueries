@@ -1,11 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verdulería Apio Verde</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
+  <div class="container">
+    <nav class="nav">
+      <h1>🍏 Apio Verde</h1>
+      <span class="hamburguer">&#9776;</span>
+      <ul class="nav-menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
 
+    <div class="sort-bar">
+      <label for="orden">Ordenar Por:</label>
+      <select id="orden" name="orden">
+        <option value="precio">Precio</option>
+        <option value="alfabetico">A-Z</option>
+      </select>
+    </div>
+
+    <main class="products">
+      <div class="product">
+        <img src="./assets/img/apio.png" alt="Apio">
+        <p>Apio</p>
+        <p class="price">$2.650</p>
+        <button class="btn">Añadir al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="./assets/img/papas.png" alt="Papas">
+        <p>Papas</p>
+        <p class="price">$3.400</p>
+        <button class="btn">Añadir al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="./assets/img/lechuga.png" alt="Lechugas">
+        <p>Lechugas</p>
+        <p class="price">$3.400</p>
+        <button class="btn">Añadir al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="./assets/img/betarraga.png" alt="Betarragas">
+        <p>Betarragas</p>
+        <p class="price">$1.180</p>
+        <button class="btn">Añadir al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="./assets/img/naranja.png" alt="Naranjas">
+        <p>Naranjas</p>
+        <p class="price">$1.130</p>
+        <button class="btn">Añadir al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="./assets/img/frutilla.png" alt="Frutillas">
+        <p>Frutillas</p>
+        <p class="price">$1.800</p>
+        <button class="btn">Añadir al Carrito</button>
+      </div>
+    </main>
+
+    <div class="pagination">
+      <a href="#">&laquo;</a>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">&raquo;</a>
+    </div>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="#"><img src="./img/facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="./img/instagram-icon.png" alt="Instagram"></a>
+      </div>
+      <p>© Frutas y Verduras - Todos los derechos reservados</p>
+    </footer>
+  </div>
 </body>
 </html>
